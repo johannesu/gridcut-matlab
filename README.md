@@ -4,7 +4,10 @@ Light-weight MATLAB package for segmentation using GridCut
 
 It minimizes functions given on the form:
 
-* Data_term + weight*|boundary length|.
+* Data_term + weight*|boundary length|,
+
+see [2].
+
 
 
 Getting started
@@ -46,7 +49,7 @@ For 3D data
 
 ### C++ ###
 
-In order to stay C++98 compatible the current wrapper does not support the multi-threaded version of GridCut.
+The current wrapper does not support the multi-threaded version of GridCut.
 
 ### Data types ###
 
@@ -55,11 +58,14 @@ The data term must either be in double or single-precession (float).
 
 References
 ===
-1. 
+[1]
 Jamriska, Ondrej, Daniel Sykora, and Alexander Hornung.
 _Cache-efficient graph cuts on structured grids._
 Computer Vision and Pattern Recognition (CVPR), 2012.
 
 
-
+[2]
+Kolmogorov, Vladimir, and Yuri Boykov. 
+_What metrics can be approximated by geo-cuts, or global optimization of length/area and flux._
+International Conference on Computer Vision (ICCV), 2005.
 
