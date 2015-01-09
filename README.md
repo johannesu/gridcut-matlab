@@ -47,7 +47,7 @@ For 3D data
 * 26-connectivity
 
 
-### C++ ###
+### Threads ###
 
 The current wrapper does not support the multi-threaded version of GridCut.
 
