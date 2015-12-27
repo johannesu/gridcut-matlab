@@ -6,7 +6,7 @@ It minimizes functions given on the form:
 
 * Data_term + weight*|boundary length|,
 
-see [2].
+see [2], for theoretical details.
 
 
 
