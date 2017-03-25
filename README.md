@@ -1,14 +1,13 @@
 Light-weight MATLAB package for segmentation using GridCut 
-[http://gridcut.com/]
-(http://gridcut.com/) [1].
+[http://gridcut.com/](http://gridcut.com/) [1].
 
 It minimizes functions given on the form:
 
-* Data_term + weight*|boundary length|,
+```math
+Data_term + weight*|boundary length|,
+```
 
 see [2], for theoretical details.
-
-
 
 Getting started
 ===
