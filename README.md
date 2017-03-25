@@ -58,14 +58,10 @@ The data term must either be in double or single-precession (float).
 
 References
 ===
-[1]
-Jamriska, Ondrej, Daniel Sykora, and Alexander Hornung.
-_Cache-efficient graph cuts on structured grids._
-Computer Vision and Pattern Recognition (CVPR), 2012.
+1. _Cache-efficient graph cuts on structured grids_<br />
+Computer Vision and Pattern Recognition (CVPR), 2012<br />
+_Ondrej Jamriska, Daniel Sykora, and Alexander Hornung_
 
-
-[2]
-Kolmogorov, Vladimir, and Yuri Boykov. 
-_What metrics can be approximated by geo-cuts, or global optimization of length/area and flux._
-International Conference on Computer Vision (ICCV), 2005.
-
+2. _What metrics can be approximated by geo-cuts, or global optimization of length/area and flux_<br />
+International Conference on Computer Vision (ICCV), 2005<br />
+_Vladimir Kolmogorov and Yuri Boykov_
